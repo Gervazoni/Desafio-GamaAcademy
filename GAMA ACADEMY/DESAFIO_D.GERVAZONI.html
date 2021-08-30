@@ -1,0 +1,231 @@
+<html lang="pt-BR">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&amp;display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>JOBSNET - Banco de Talentos</title>
+    <link rel="shortcut icon" type="imagem/x-icon" href="favicon.ico">
+</head>
+<div id="OP_DivRibbonLyr" 
+    style="position: absolute; display: none; width: 100%; height: 0px; z-index: 2147483647;">
+<iframe id="OP_DivRibbonFrame" 
+        height="0" 
+        seamless="" 
+        style="border:0; margin:0; padding:0;" 
+        src="chrome-extension://fidikogfgleiaefnjbmnjaplmgknppkg/omnipassui/opbhoprmpt.htm" 
+        width="1536"> 
+    </iframe>
+</div>
+<div id="OP_DivEmptyRibbonLyr" 
+style="display: none; width: 100%; height: 0px; z-index: 2147483647;">
+</div>
+<div id="OP_DivGPALyr" style="overflow: hidden; position:fixed; top:20%; left:40%; display:none; width:216px; height:356px; z-index: 1000000000000002;">
+    <iframe id="OP_DivGPAFrame" width="216px" height="356px" seamless="" style="border:0; margin:0; padding:0;" 
+    src="chrome-extension://fidikogfgleiaefnjbmnjaplmgknppkg/omnipassui/gpa.htm"> 
+</iframe>
+</div>
+<body>
+        <header>
+            <div>
+
+                <img src="JOBSNET.png">
+            
+            </div>         
+        </header>
+
+        <form>
+            <fieldset>
+                <a name="formularioJobs"></a>
+                <h1>DADOS PESSOAIS</h1>
+                <br>
+                <div class="ContainerOne">
+                    <div>
+                        <label>Nome Complemento
+                            <span class="required">
+                            </span>
+                        </label>
+                        <input type="text" name="nome" id="nome" size="50" required="" placeholder="Digite seu nome aqui">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Data de Nascimento<span class="required">*
+                            </span>
+                        </label>
+                        <input type="date" name="data" id="data" required="">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Estado Civil<span class="required">*</span></label>
+                        <select id="civil" required="">
+                            <option selected="" disabled="" value="">Selecione</option>
+                            <option>Solteiro(a/e)</option>
+                            <option>Casado(a/e)</option>
+                            <option>Divorciado(a/e)</option>
+                            <option>Viúvo(a/e)</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label>Sexo<span class="required">*</span></label>
+                        <select name="genero" id="genero" required="">
+                            <option selected="" disabled="" value="">Selecione</option>
+                            <option>Feminino</option>
+                            <option>Masculino</option>
+                            <option>Outro(a/e)</option>
+                            <option>Prefiro não responder</option>
+                        </select>
+                    </div>
+                    <div></div>
+                </div>
+                <br>
+                <div class="ContainerTwo">
+                    <div>
+                        <label>Cargo Pretendido
+                            <span class="required">*
+                            </span>
+                        </label>
+                        <input type="text" name="cargo" id="cargo" size="50" required="" placeholder="Digite aqui o cargo pretendido">
+                    </div>
+                    <div>
+                        <label>Formação Acadêmica
+                        </label>
+                        <input type="text" name="formacao" id="formacao" size="50" required="" placeholder="Digite aqui sua Formação Acadêmica">
+                    </div>
+                   
+                </div>
+                <br>
+                <div class="ContainerThree">
+                    <div>
+                        <label>CEP<span class="required">*</span></label>
+                        <input type="text" name="cep" id="cep" maxlength="8" placeholder="Digite aqui seu CEP" required="">
+                    </div>
+
+                    <div>
+                        <label>Endereço<span class="required">*</span></label>
+                        <input type="text" name="logradouro" id="logradouro" size="50" required="" placeholder="Digite aqui seu Endereço">
+                    </div>
+
+                    <div>
+                        <label>Número/Complemento<span class="required">*</span></label>
+                        <input type="text" name="complemento" id="complemento" placeholder="Digite aqui o número/complemento">
+                    </div>
+                </div>
+                <br>
+                <div class="ContainerFour">
+                    <div>
+                        <label>Bairro<span class="required">*</span></label>
+                        <input type="text" name="bairro" id="bairro" size="50" required="" placeholder="Digite aqui seu Bairro">
+                    </div>
+
+                    <div>
+                        <label>Cidade<span class="required">*</span></label>
+                        <input type="text" name="cidade" id="cidade" size="50" required="" placeholder="Digite aqui sua cidade">
+                    </div>
+
+                    <div>
+                        <label>Estado<span class="required">*</span></label>
+                        <input type="text" name="uf" id="uf" size="3" required="" placeholder="Digite aqui seu Estado">
+                    </div>
+                </div>
+                <br>
+                <div class="ContainerFive">
+                    <div>
+                        <label>Telefone Fixo</label>
+                        <input type="text" name="telefone" id="telefone" placeholder="(DD) XXXX-XXXX">
+                    </div>
+
+                    <div>
+                        <label>Celular<span class="required">*</span></label>
+                        <input type="text" name="celular" id="celular" placeholder="(DD) XXXXX-XXXX">
+                    </div>
+    
+                    <div>
+                        <label for="email">E-mail<span class="required">*</span></label>
+                        <input type="email" name="email" id="email" size="50" placeholder="seunome@exemplo.com" required="">
+                    </div>
+                </div>  
+
+                <br><br>    
+           
+                <h1>DOCUMENTAÇÃO</h1>
+                <br>
+                <div class="ContainerFive">
+                    <div>
+                        <label>Carteira de Identidade<span class="required">*</span></label>
+                        <input type="text" name="identidade" id="identidade" required="" placeholder="Digite seu RG aqui">
+                    </div>
+    
+                    <div>
+                        <label>Órgão Emissor<span class="required">*</span></label>
+                        <input type="text" name="orgao" id="orgao" required="">
+                    </div>
+
+                    <div>
+                        <label>CPF<span class="required">*</span></label>
+                        <input type="text" name="cpf" id="cpf" maxlength="11" class="invalidInput" required="" placeholder="Digite seu CPF aqui">
+                        <span id="erroCPF" style="display: none;" role="alert">CPF Inválido, digite apenas números.</span>
+                    </div>
+                </div>
+                <br>
+                <div class="ContainerSix">
+                    <div>
+                        <label>Possui veículo próprio?</label>
+                        <select name="veiculo" id="veiculo">
+                            <option selected="" disabled="" value="">Selecione uma das opções abaixo</option>
+                            <option>Sim</option>
+                            <option>Não</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label>Categoria de CNH</label>
+                        <select name="cnh" id="cnh">
+                            <option selected="" disabled="" value="">Selecione uma das opções abaixo</option>
+                            <option>Sem habilitação</option>
+                            <option>Em andamento</option>
+                            <option>A</option> 
+                            <option>ACC</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>E</option>
+                        </select>
+                    </div>
+                </div>
+
+                <br>
+                <center>
+                    <button class="fill" type="submit" id="botao" onclick="checagem()">
+                        <b>Enviar</b>
+                    </button>
+                </center>
+
+
+            </fieldset>
+        </form>
+
+        <footer>
+            <ul>
+            <b>
+                <li></li><li>|   JobsNET Ltda   |</li>
+                <br>
+                <li>|   <a href="https://ambevtech.com.br/">Ambev Tech</a> e <a href="https://www.gama.academy/">Gama Academy</a> - Programa de Bolsas Start Tech.   |</li>
+                <br>
+                <li>|   <a href="https://www.linkedin.com/in/maria-eduarda-gervazoni/">LinkedIn - Maria Eduarda Gervazoni</a>   |</li>
+                <br>
+                <li>|   <a href="https://github.com/gervazoni">GitHub Gervazoni   |</a></li>            </b>
+            </ul>   
+        </footer>
+
+    <script =="" src="script.js"></script>
+    
+
+<div id="OP_lyrMain" style="display: none; z-index: 2147483646; position: absolute; left: 0px; top: 0px; width: 373px; height: 1176px; background-color: black; opacity: 0.6;">
+</div>
+</body>
+</html>
