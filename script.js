@@ -114,7 +114,7 @@ const formularioDb = () => {
 }
 
 const criarCandidato = async (candidato) => {
-    const usuario = await fetch('https://jobsnet-gamaxp.herokuapp.com/registro', {
+    const usuario = await fetch('https://jobsnet-desafio-gamaacademy.netlify.app/ ', {
             method: "POST",
             headers: {
                 'Accept': 'application/json',
