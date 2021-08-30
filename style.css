@@ -1,0 +1,276 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+body {
+    background-color: #000000;     
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    max-width: 80%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #08efff;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.inicio {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+
+}
+
+h1 {
+    font-size: 20px;
+    color: #aec9ff;
+    text-align: center;
+}
+
+#arrow {
+    font-size: 30px;    
+    color: #2c2c2c;
+    display: flex;
+    right: 40%
+    justify-content: flex-start;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+#animation {
+    transition: 400ms;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: 400ms;
+}
+
+span.required {
+    margin-left: 0;
+    color: red;
+}
+
+form {
+    margin-top: 70px;
+    background-color: #000000;
+    display: grid;
+    font-weight: 300;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 50px;
+    border-radius: 100px;
+    border: solid white;
+}
+
+fieldset {
+    border-style: none;
+}
+
+.ContainerOne {
+    display: flex;
+    justify-content: center;
+    color: white;
+    }
+
+.ContainerOne div {
+    margin: 5px;
+}
+
+.ContainerTwo {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.ContainerTwo div {
+    margin: 5px;
+}
+
+.ContainerThree {
+    display: flex;
+    justify-content: center;
+    color: white;
+    }
+
+.ContainerThree div {
+    margin: 5px;
+}
+
+.ContainerFour {
+    display: flex;
+    justify-content: center;
+    color: white;
+    }
+
+.ContainerFour div {
+    margin: 5px;
+}
+
+.ContainerFive {
+    display: flex;
+    justify-content: center;
+    color: white;
+    }
+
+.ContainerFive div {
+    margin: 5px;
+}
+
+.ContainerSix {
+    display: flex;
+    justify-content: center;
+    color: white;
+    }
+
+.ContainerSix div {
+    margin: 5px;
+}
+
+button {
+    background-color: #41AEF5;
+    border: none;
+    border-radius: 20px;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    color: var(--color);
+    transition: 0.25s;
+}
+
+.fill {
+    --color: #000000;
+    --hover: #5CDADE;
+}
+.fill:hover,
+.fill:focus {
+  box-shadow: inset 0 0 0 2em var(--hover);
+}
+
+footer {
+    color: #ffffff;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    font-size: 12px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+ul li{
+    padding: 5px;
+}
+
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+    img {
+        max-width: 370px;
+    }
+
+    .inicio {
+        display: none;
+    }    
+
+    h1 {
+        font-size: 18px;
+    }
+
+    form {
+        margin-top: 10px;
+        display: flex;
+        font-size: 12px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 370px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    fieldset {
+        border-style: none;
+        max-width: 360px;
+    }
+   
+    .ContainerOne {
+        display: inline-block;
+        justify-content: left;
+    }
+    
+    .ContainerOne div {
+        margin: 5px;
+    }
+    
+    .ContainerOne {
+        display: inline-block;
+        justify-content: left;
+    }
+    
+    .ContainerTwo div {
+        margin: 5px;
+    }
+    
+    .ContainerThree {
+        display: inline-block;
+        justify-content: left;
+    }
+    
+    .ContainerThree div {
+        margin: 5px;
+    }
+    
+    .ContainerFour {
+        display: inline-block;
+        justify-content: left;
+    }
+    
+    .ContainerFour div {
+        margin: 5px;
+    }
+    
+    .ContainerFive {
+        display: inline-block;
+        justify-content: left;
+    }
+    
+    .ContainerFive div {
+        margin: 5px;
+    }
+
+    .ContainerSix {
+        display: inline-block;
+        justify-content: left;
+    }
+    
+    .ContainerSix div {
+        margin: 5px;
+    }
+
+    footer {
+        color: #ffffff;
+        display: flex;
+        padding: 15px;
+        justify-content: space-evenly;
+        font-size: 10px;
+    }
+}
